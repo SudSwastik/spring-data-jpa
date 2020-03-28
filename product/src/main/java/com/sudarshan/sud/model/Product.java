@@ -12,7 +12,7 @@ public class Product {
 
 
     @Id
-    private int id;
+    private long id;
     private String name;
     @Column(name = "description")
     private String desc;
