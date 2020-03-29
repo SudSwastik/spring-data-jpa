@@ -51,6 +51,12 @@ public class JpqlandnativesqlApplicationTests {
         }
     }
 
+    @Test
+    public void testFindAllStudentsByFirstName() {
+
+	    System.out.println(repository.findAllStudentsByFirstName("Bill"));
+    }
+
 }
 
 
