@@ -57,6 +57,11 @@ public class JpqlandnativesqlApplicationTests {
 	    System.out.println(repository.findAllStudentsByFirstName("Bill"));
     }
 
+    @Test
+    public void testFindAllStudentsBetweenScores() {
+	    System.out.println(repository.findStudentsForGivenScores(80, 90));
+    }
+
 }
 
 
