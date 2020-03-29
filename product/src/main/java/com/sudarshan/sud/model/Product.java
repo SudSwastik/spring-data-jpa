@@ -18,11 +18,11 @@ public class Product {
     private String desc;
     private Double price;
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
