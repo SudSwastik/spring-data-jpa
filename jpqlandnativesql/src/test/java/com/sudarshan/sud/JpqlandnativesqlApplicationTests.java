@@ -42,6 +42,15 @@ public class JpqlandnativesqlApplicationTests {
 		repository.save(student2);
 	}
 
+    @Test
+    public void testFindAllStudentsPartial() {
+        List<Object[]> partialData = repository.findAllStudentsPartialData();
+        for (Object[] objects : partialData) {
+            System.out.println(objects[0]);
+            System.out.println(objects[1]);
+        }
+    }
+
 }
 
 
